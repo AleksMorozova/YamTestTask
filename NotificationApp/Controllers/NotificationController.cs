@@ -16,13 +16,6 @@ public class NotificationController : ControllerBase
     [HttpPost(Name = "Login")]
     public ActionResult LoginAsync(NotificationRequest request)
     {
-        //var user = await _authenticationService.LoginAsync(request);
-
-        //if (user is null)
-        //{
-        //    return NotFound();
-        //}
-
         return Ok();
     }
 }
