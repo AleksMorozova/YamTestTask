@@ -25,6 +25,6 @@ public class LoginController : ControllerBase
             return NotFound();
         }
 
-        return Ok(_mapper.Map<LoginResponse>(user));
+        return Ok(new LoginResponse(_mapper.Map<UserResponse>(user)));
     }
 }

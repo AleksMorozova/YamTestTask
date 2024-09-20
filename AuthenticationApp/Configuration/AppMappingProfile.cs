@@ -7,6 +7,6 @@ public class AppMappingProfile : Profile
 {
     public AppMappingProfile()
     {
-        CreateMap<User, LoginResponse>();
+        CreateMap<User, UserResponse>();
     }
 }

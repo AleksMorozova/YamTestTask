@@ -1,2 +1,2 @@
 ﻿namespace AuthenticationApp.Models;
-public record LoginResponse(string UserName, string Password, string Email);
+public record LoginResponse(UserResponse User, string Status);

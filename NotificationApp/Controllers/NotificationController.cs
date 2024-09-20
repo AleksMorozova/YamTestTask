@@ -13,9 +13,10 @@ public class NotificationController : ControllerBase
     public NotificationController(INotificationService notificatioService) =>
         _notificatioService = notificatioService;
 
-    [HttpPost(Name = "Login")]
-    public ActionResult LoginAsync(NotificationRequest request)
+    [HttpPost(Name = "Notification")]
+    public ActionResult NotificationRequestAsync(NotificationRequest request)
     {
+        _notificatioService.ReceiveNotification(request);
         return Ok();
     }
 }
