@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeveloperTestTask", "DeveloperTestTask\DeveloperTestTask.csproj", "{9E72641B-6512-40B2-8AC6-F3FA81E90931}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeveloperTestTask", "DeveloperTestTask\DeveloperTestTask.csproj", "{9E72641B-6512-40B2-8AC6-F3FA81E90931}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthenticationApp", "AuthenticationApp\AuthenticationApp.csproj", "{8BEB9B7A-5915-424B-BA76-381B7CDA703D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthenticationApp", "AuthenticationApp\AuthenticationApp.csproj", "{8BEB9B7A-5915-424B-BA76-381B7CDA703D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationApp", "NotificationApp\NotificationApp.csproj", "{AAFB750A-4E23-4AA7-BF07-09936860491B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{8BEB9B7A-5915-424B-BA76-381B7CDA703D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8BEB9B7A-5915-424B-BA76-381B7CDA703D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8BEB9B7A-5915-424B-BA76-381B7CDA703D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAFB750A-4E23-4AA7-BF07-09936860491B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAFB750A-4E23-4AA7-BF07-09936860491B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAFB750A-4E23-4AA7-BF07-09936860491B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAFB750A-4E23-4AA7-BF07-09936860491B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

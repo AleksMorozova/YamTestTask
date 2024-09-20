@@ -7,9 +7,12 @@ string userName = Console.ReadLine();
 Console.WriteLine("Enter password:");
 string password = Console.ReadLine();
 
-var serv = new AuthenticationService();
+var authenticationService = new AuthenticationService();
+var notificationService = new NotificationService();
 
+// TODO: hash password
+var loginResult = await authenticationService.LoginAsync(userName, password);
 
-Console.WriteLine(await serv.LoginAsync(userName, password));
+await notificationService.SendNotificationAsync(loginResult);
 
 Console.ReadKey();
